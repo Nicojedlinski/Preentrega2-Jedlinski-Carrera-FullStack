@@ -85,6 +85,7 @@ h3{
 
 form{
     margin: 12px;
+    display: grid;
 }
 
 @media screen and (max-width:500px){
@@ -112,7 +113,11 @@ form{
     }
     .footer{
         font-size: 22px;
-
+    }
+    .formulario{
+        justify-content: center;
+        height: 20px;
+        width: 50%;
     }
 }
 
