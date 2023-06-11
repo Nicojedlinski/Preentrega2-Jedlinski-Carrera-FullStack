@@ -88,6 +88,7 @@ form{
     display: grid;
 }
 
+/* media querys - telefono */
 @media screen and (max-width:500px){
     .imgHeader{
         grid-template-columns: 1fr;
@@ -119,9 +120,62 @@ form{
         height: 20px;
         width: 50%;
     }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }
 
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
 
+.imgMain1 p{
+    display: flex;
+    column-gap: 5px;
+    width: 90%;
+    text-align: center;
+}
 
+.imgMain2 p{
+    display: flex;
+    column-gap: 5px;
+    width: 90%;
+    text-align: center;
+}
+
+.imgMain3 p{
+    display: flex;
+    column-gap: 5px;
+    width: 60%;
+    text-align: center;
+    margin: 4px;
+}
+
+.imgMain1 img{
+    width: 400px;
+    display: flex;
+    column-gap: 5px;
+    width: 90%;
+}
+
+.imgMain2 img{
+    width: 400px;
+    display: flex;
+    column-gap: 5px;
+    width: 90%;
+}
+
+.imgMain3 img{
+    width: 400px;
+    display: flex;
+    column-gap: 5px;
+    width: 90%;
+}
 
 
