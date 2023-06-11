@@ -4,53 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-
+    <title>Portfolio</title>
     <!-- imagenes -->
     <link rel="stylesheet" href="imagenes/1366_2000.jpg">
     <link rel="stylesheet" href="imagenes/code-g80beacf0b_1280.jpg">
     <link rel="stylesheet" href="imagenes/green-g4ec7719fb_1280.jpg">
 
-    <!--enlaces  -->
+<!-- enlaces -->
     <link rel="shortcut icon" href="img/norte (1).png" type="image/x-icon">
-    <link rel="stylesheet" href="../estilos/estilos.css">
     <link rel="stylesheet" href="../index.html">
     <link rel="stylesheet" href="../paginas/experience.html">
     <link rel="stylesheet" href="../paginas/portfolio.html">
     <link rel="stylesheet" href="../contacto.html">
 
-    <!-- Libreria para footer -->
+<!-- Libreria para footer -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Fuente -->
+<!-- Fuente -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<header>
-<ul class="barraBusqueda">
-    <li><a href="../index.html">Home</a> </li>
-    <li> <a href="../paginas/aboutme.html">About Me</a> </li>
-    <li> <a href="../paginas/experience.html">Experience</a> </li>
-    <li> <a href="../paginas/portfolio.html">Portfolio</a> </li>
-    <li> <a href="../contacto.html">Contacto</a> </li>
-</ul>
-</header>
 
-<main>
-    <h3>About Me</h3>
-    <img src="../imagenes/abdullah-ali-1w9I6H4aftw-unsplash.jpg" alt="" height="400px" width="800px">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt possimus id eius suscipit voluptas adipisci provident enim non atque quo fugiat perspiciatis saepe omnis, veritatis dolorem, ipsum, doloremque delectus qui ex vero quod! Minima expedita pariatur consequuntur accusantium hic? Minus possimus saepe, quaerat adipisci vel aut cupiditate consequatur eligendi molestias maiores. Earum minima sapiente dolor, necessitatibus tempora, porro odit cum unde labore veniam velit explicabo deleniti numquam maxime impedit! Sed deserunt dolor magni nobis cupiditate itaque possimus consequuntur placeat rerum voluptas molestias rem ipsum ipsa eos officia enim eum, dolorum facilis aspernatur ex voluptatibus vel veniam. Aliquid fugit quae excepturi reiciendis aut hic, soluta consectetur animi quisquam! Vero eum praesentium esse nam iure similique nihil voluptas veritatis illo quidem. Rerum, laborum repellendus cum corrupti, cupiditate molestias ipsam quos nisi dicta reiciendis nihil laboriosam harum exercitationem voluptatibus veniam ratione doloribus inventore animi soluta, ipsum consequuntur. Aliquam optio nam laborum quas asperiores perspiciatis eveniet! Perferendis placeat sapiente excepturi, ut minima a suscipit quo saepe unde! Harum, nulla sequi modi aperiam illum sed fugit laudantium doloribus explicabo numquam esse cupiditate nostrum expedita, nobis porro ipsam! Sequi, quia consequatur! Odit adipisci esse sed ex incidunt. Voluptate vitae officiis maxime eum corrupti nobis soluta optio.</p>
-        
+<!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     
+<!-- Css -->
+    <link rel="stylesheet" href="../estilos/estilos.css">
+
+</head>
+<header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Sr Nicolas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="paginas/portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="experience.html">Experience</a></li>
+                <li><a class="dropdown-item" href="aboutme.html">About Me</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../contacto.html">Contacto</a></li>
+                </ul>
+            </li>
+            </ul>
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+</header>
+<br>
+<main class="experience">
+    <div class="experience">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta dolorum mollitia eius nostrum sunt? Ad fugit, doloribus atque dignissimos consectetur veniam dicta enim ducimus saepe quibusdam qui alias repellendus quisquam. Aut, neque est! Praesentium quod reiciendis illo enim odio ea placeat vitae dicta eligendi. Saepe accusamus sit reiciendis minus sunt, magnam, quidem, amet unde natus deserunt sequi! Facere ad, laboriosam veritatis magnam quos dignissimos laborum? Doloribus culpa vel consequuntur, exercitationem consectetur cumque in. Corporis iure iusto maiores ad consequatur autem modi sequi laboriosam ducimus quos, fuga, deserunt dolor. Molestiae quisquam a mollitia debitis, magni cupiditate recusandae iure omnis numquam quam quas obcaecati vitae commodi consequatur suscipit sapiente ea repudiandae maxime voluptates officiis odio? Totam ut veritatis debitis non quasi dignissimos accusamus sint id amet, officiis nulla exercitationem commodi nihil dolorem ex dicta aliquid aut ea earum ratione officia a! Vero vel totam eius, alias quas illo doloremque modi voluptates veniam dicta rerum similique voluptate aliquid repudiandae est iure? Eos inventore veniam vel facilis autem a adipisci praesentium non, esse omnis, doloribus atque temporibus amet error eius placeat in doloremque? Quibusdam quaerat ad eveniet natus voluptatem excepturi atque magni nemo id, consectetur possimus et alias suscipit perspiciatis a iure voluptates reprehenderit.</p>
+    </div>
 </main>
 
 
+<br>
+
 <footer>
-        <div class="footer">
-            <p><strong >Todos Los Derechos Reservados De Copyright</strong></p>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-        </div>
+    <div class="footer">
+        <p><strong >Todos Los Derechos Reservados De Copyright</strong></p>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>
 </footer>
