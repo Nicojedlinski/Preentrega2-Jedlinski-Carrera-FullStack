@@ -177,4 +177,61 @@ form{
     width: 90%;
 }
 
+/* Tablet Responisve */
+@media screen and (max-width:1200px){
+    .imgHeader{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+    }
+    h1{
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .descripcion{
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Noto Serif', serif;
+    }
+    .imagenesMiEquipo{
+        flex-direction: row;
+        align-items:center;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .imgequipo1{
+        width: 33%;
+    }
+
+    .imgequipo2{
+        width: 33%;
+    }
+
+    .imgequipo3{
+        width: 33%;
+    }
+
+    .footer{
+        font-size: 22px;
+    }
+
+    .formulario{
+        justify-content: center;
+        height: 20px;
+        width: 50%;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
 
