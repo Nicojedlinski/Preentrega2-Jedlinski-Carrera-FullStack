@@ -110,9 +110,31 @@ form {
     font-family: "Noto Serif", serif;
   }
   .imagenesMiEquipo {
+    display: flex;
     flex-direction: column;
-    width: 10%;
-    margin: 0%;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgequipo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .imgequipo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .imgequipo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .footer {
     font-size: 22px;
@@ -199,8 +221,10 @@ form {
   .imagenesMiEquipo {
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    justify-content: center;
     margin: 0%;
+    width: 100%;
+    height: 500px;
   }
   .imgequipo1 {
     width: 33%;
