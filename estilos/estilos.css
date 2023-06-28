@@ -262,5 +262,16 @@ form{
     }
 }
 
-
-
+@keyframes .nico {
+    0% {
+      text-transform: capitalize;
+    }
+    50% {
+      text-decoration: solid;
+    }
+    100% {
+      background-color: none;
+      text-decoration: none;
+      height:30px;
+    }
+  }
