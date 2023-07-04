@@ -297,6 +297,27 @@ form{
 }
 
 
+.bombonera{
+    display: flex;
+    align-items: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.pago{
+    display: flex;
+    align-items: right;
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+}
+
+.videos{
+    color: white;
+}
+
 @keyframes .nico {
     0% {
       text-transform: capitalize;
