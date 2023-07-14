@@ -8,14 +8,14 @@ header{
     display: grid;
 }
 
-.imgHeader{
+imgHeader{
     background-position: center;
     height: 500px;
     width: 100%;
     display: grid;
 }
 
-.barraBusqueda{
+barraBusqueda{
     text-align: center;
     text-size-adjust: 50px;
     list-style-type: none;
@@ -23,7 +23,7 @@ header{
     font-family: 'Noto Serif', serif;
     border-bottom: solid ;
 }
-.barraBusqueda li{
+barraBusqueda li{
     text-align: center;
     text-transform:uppercase;
     text-decoration: none;
@@ -260,3 +260,4 @@ form{
         justify-content: center;
     }
 }
+
