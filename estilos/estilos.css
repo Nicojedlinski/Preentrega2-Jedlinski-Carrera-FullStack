@@ -174,6 +174,7 @@ form{
         height: 20px;
         width: 50%;
     }
+
     
     .main{
         display: flex;
@@ -357,4 +358,43 @@ form{
     text-align: center;
     text-decoration: none;
     color: aliceblue;
+  }
+
+  .navbar-brand{
+    color: white;
+  }
+
+  .nav-link{
+    color: white;
+  }
+
+  .nav-item{
+    color: white;
+  }
+
+  .collapse navbar-collapse{
+    color: white;
+  }
+
+  #home{
+    color: white;
+  }
+
+  .boton{
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+  }
+
+  .boton a{
+    text-align: center;
+  }
+
+  .direcBoton{
+    text-align: center;
+    height: 60px;
+    font-size: 40px;
+    
   }
